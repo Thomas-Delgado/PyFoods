@@ -6,6 +6,8 @@ cor = '#636e72'
 
 window = Tk()
 window.title('Refeições')
+photo = PhotoImage(file = "Banana.png")
+window.iconphoto(False, photo)
 
 
 
@@ -38,7 +40,7 @@ entry_periodo.grid(row=3, column=1, padx = 5, pady= 5)
 
 "PARTE MYSQL"
 
-connect = mysql.connector.connect(host='localhost', user = 'root', password = '', port = '3306', database = 'dbcomidas')
+connect = mysql.connector.connect(host='localhost', user = 'root', password = 'root', port = '3306', database = 'dbcomidas')
 cursor = connect.cursor()
 
 def dados_envio():

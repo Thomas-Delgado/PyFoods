@@ -1,4 +1,4 @@
-# pyrefeicoes
+# PyFoods
 Diet small script
 
 Basic GUI created using Tkinter(Python) for personal use intended to register the food eaten during the week, storing it in the MySQL relational database and later on connecting it as a dataset for generate a Power BI Dashboard.
